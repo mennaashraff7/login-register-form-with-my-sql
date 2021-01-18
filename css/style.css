@@ -1,0 +1,218 @@
+
+/********************css for index******************/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow:hidden;
+    
+}
+input:focus{
+    outline: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+h1{
+    color: white;
+}
+.disabled{
+    cursor: not-allowed;
+    pointer-events: none;
+
+}
+.container{
+    height: 100%;
+    text-align: center;
+    background-color:rgb(177, 96, 96);
+}
+.btns{
+    margin: 0 auto;
+    margin: 5% 0 25% 0;
+}
+
+.btn{
+    margin: 10px;
+    border: 2px solid white;
+    background-color: rgb(177, 96, 96);;
+    border-radius: 0.4em;
+    padding: 8px 25px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+}
+.btn a{
+    color: white;
+}
+.btn a:hover{
+    color:rgb(177, 96, 96);
+}
+.validation {color:rgb(177, 96, 96);}
+/******************************loginForm css**********************/
+form{
+    padding: 20px 10px;
+    position: relative;
+    left: 34%;
+    margin: 8% 0 20% 0;
+    background-color: rgb(247, 242, 234);
+    width: 30%;
+    box-shadow: 0 8px 9px -5px black;
+}
+form label{
+    color: grey;
+    font-weight: 400;
+}
+form #submit2{
+    margin-bottom: 5%;
+    width: 95%;
+}
+form #submit2:hover{
+   background-color: rgb(182, 180, 180);
+   color: white;
+}
+form .new{
+    text-align: left;
+    margin-left: 30px;
+}
+.new p{
+    color: grey;
+}
+.new p a{
+    color:rgb(177, 96, 96);
+}
+form input{
+    margin: 20px 0;
+    width: 85%;
+    height: 50px;
+    padding: 0 20px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+form .btn:hover{
+    color:rgb(177, 96, 96);
+}
+#login_title{
+    
+    margin: 10px;
+    color:rgb(177, 96, 96);
+}
+#login_title h1{
+    color:rgb(177, 96, 96);
+}
+#signUp_title{
+    
+    margin: 10px;
+    color:rgb(177, 96, 96);
+}
+#signUp_title h1{
+    color:rgb(177, 96, 96);
+}
+
+/*************registerForm css*************/
+form #pass{
+    margin: 10px 0;
+    width: 85%;
+    height: 40px;
+    padding: 0 20px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+form #email{
+    margin: 10px 0;
+    width: 85%;
+    height: 40px;
+    padding: 0 20px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+form #fname{
+    margin: 10px 0;
+    width: 85%;
+    height: 40px;
+    padding: 0 20px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+form #confirm{
+    margin: 10px 0;
+    width: 85%;
+    height: 40px;
+    padding: 0 20px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/*****************home css**************************/
+.content{
+    text-align: center;
+    background-color:rgb(177, 96, 96);
+    height: 100%;
+}
+.center{
+    margin: 12% 0 20% 0;
+}
+.table{
+    margin: 0 auto;
+    width: 50% !important;   
+}
+#home{
+    margin-top: 15%;
+}
+h2{
+    color: white;
+    margin-bottom: 5%;
+}
+
+th{
+    color: white;
+}
+td{
+    color: white;
+}
+
+tr:hover{background-color: brown;
+            opacity: 0.9;
+}
+
+.btn2{
+    margin: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 0.4em;
+    padding: 8px 25px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn2:hover{
+    background-color: white;
+}
+.btn2 a{
+    color: white;
+    text-decoration: none;
+}
+.btn2 a:hover{
+    color:rgb(177, 96, 96);
+}
